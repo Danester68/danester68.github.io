@@ -21,6 +21,10 @@
   display: block;
   margin: 5px;
 }
+.image-page {
+  align-content: center;
+  display: inline
+}
 body {
   text-align: center;
 }

@@ -5,27 +5,22 @@
   font-weight: 400;
   font-style: normal;
 }
-.link-button-disabled {
-  color:black;
-  text-decoration: none;
-  background: #5e5e5e;
-  border: 2px solid #000;
-  padding: 2px;
-}
-.link-button-disabled:hover {
-  cursor: not-allowed;
-}
-.link-button, nav ul a {
+.link-button, .link-button-disabled, nav ul a {
   color:black;
   text-decoration: none;
   background: #7c7c7c;
   border: 2px solid #000;
   padding: 2px;
-  
 }
 .link-button:hover, nav ul a:hover {
   background: #9b9b9b;
   border-color: #dbdbdb;
+}
+.link-button-disabled {
+  background: #464646;
+}
+.link-button-disabled:hover {
+  cursor: not-allowed;
 }
 .content-view-button {
   display: block;

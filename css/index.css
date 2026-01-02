@@ -35,6 +35,12 @@
   align-content: center;
   display: inline
 }
+.online-game-frame {
+  height: 700px;
+  width: 1000px;
+  border: 0px;
+  padding: 0px;
+}
 .compact-content {
   max-width: 75%;
   margin-left: auto;
